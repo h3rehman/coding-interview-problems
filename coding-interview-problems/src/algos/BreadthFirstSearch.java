@@ -34,7 +34,6 @@ public class BreadthFirstSearch extends BinarySearchTree{
     }
 
     public static void main(String[] args) {
-
         createBinarySearchTree();
 
         /**
