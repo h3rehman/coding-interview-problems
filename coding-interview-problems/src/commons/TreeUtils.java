@@ -15,6 +15,7 @@ public class TreeUtils extends BinarySearchTree {
         addNode(65);
         addNode(70);
         addNode(75);
+        addNode(63);
 
 
         /**
@@ -24,8 +25,8 @@ public class TreeUtils extends BinarySearchTree {
          *           45   60
          *          / \     \
          *        40  50    65
-         *       /            \
-         *     30             70
+         *       /         /  \
+         *     30        63   70
          *    /                 \
          *  20                  75
          *

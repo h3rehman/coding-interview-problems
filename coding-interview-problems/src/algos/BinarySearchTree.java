@@ -2,13 +2,13 @@ package algos;
 
 abstract public class BinarySearchTree {
 
-    static Node root;
-    static class Node {
-        int key;
-        Node leftChild;
-        Node rightChild;
+    public static Node root;
+    public static class Node {
+        public int key;
+        public Node leftChild;
+        public Node rightChild;
 
-        Node(int key){
+        public Node(int key){
             this.key = key;
         }
     }
